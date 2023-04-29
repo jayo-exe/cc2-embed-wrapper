@@ -11,18 +11,31 @@ The wrapper is available in two flavours:
 - **Custom**: The wrapper always shows the stream you specify, requires no extra bits in your URL, but requires you to modify the file to include your stream details.
 
 ### Universal Wrapper
-- Clone the repository, or grab your file of choice from the Releases page.  The wrappers are provided in both pretty-printed and minified versions.
+- Clone the repository, or just download your file of choice from the `dist` folder.  The wrappers are provided in both pretty-printed and minified versions.
 - Rename the file to whatever you'd like and upload it to your web host, or otherwise get the resulting HTML/CSS/JS into your existing architecture.
-- That's it!  You can see the embed page for any given stream by going to `https://your-site.com/your-chosen-path.html/#/twitch/abcdefg-1234567` where:
+- Optionally, you can set a custom title by changing the `<title>` tag, as well as setting the `updateTitle` value in the `<script>` tag to `false`
+  ```
+  <title>My Custom Title</title>
+  <script>
+      const updateTitle = false;
+  </script>
+  ```
+  _Note: It may be a little harder to find this in the minified version of the file_
+- **That's it!**  You can see the embed page for any given stream by going to `https://your-site.com/your-chosen-path.html/#/twitch/abcdefg-1234567` where:
   - `abcdefg` is your twitch channel name 
   - `1234567` is your Crowd Control Origin ID (that number at the end of your Extension URL)
   
 ### Custom Wrapper
-- Clone the repository, or grab your file of choice from the Releases page.  The wrappers are provided in both pretty-printed and minified versions.
-- Modify your chosen file to provide your stream details.  You'll find these values at the beginning of the `<script>` tag:
-```
-const twitchName = "your_channel_name";
-const originId = "1234567" //Your Origin ID
-```
+- Clone the repository, or just download your file of choice from the `dist` folder.  The wrappers are provided in both pretty-printed and minified versions.
+- Modify your chosen file to provide your stream details, and optionally a custom page title.  You'll find these values at the beginning of the `<script>` tag:
+  ```
+  <title>My Custom Title</title>
+  <script>
+      const twitchName = "your_channel_name";
+      const originId = "123456789";
+      const service = "twitch";
+  </script>
+  ```
+  _Note: It may be a little harder to find this in the minified version of the file_
 - Rename the file to whatever you'd like and upload it to your web host, or otherwise get the resulting HTML/CSS/JS into your existing architecture.
-- That's it!  You can see the embed page for your configured stream by going to `https://your-site.com/your-chosen-path.html`
+- **That's it!**  You can see the embed page for your configured stream by going to `https://your-site.com/your-chosen-path.html`
