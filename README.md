@@ -39,3 +39,9 @@ The wrapper is available in two flavours:
   _Note: It may be a little harder to find this in the minified version of the file_
 - Rename the file to whatever you'd like and upload it to your web host, or otherwise get the resulting HTML/CSS/JS into your existing architecture.
 - **That's it!**  You can see the embed page for your configured stream by going to `https://your-site.com/your-chosen-path.html`
+
+## Live Demo
+
+**Universal** https://jayo.ca/cc-beta/#/twitch/jayo_exe-755306884
+
+**Custom** https://jayo.ca/cc-live
