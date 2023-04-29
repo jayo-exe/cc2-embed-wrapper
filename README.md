@@ -42,6 +42,8 @@ The wrapper is available in two flavours:
 
 ## Live Demo
 
-**Universal** https://jayo.ca/cc-beta/#/twitch/jayo_exe-755306884
+[**Universal Page Demo**](https://jayo-exe.github.io/cc2-embed-wrapper/dist/cc2-embed-wrapper-universal.min.html#/twitch/jayo_exe-755306884)
+- you can also try putting your own details in the URL!
 
-**Custom** https://jayo.ca/cc-live
+[**Custom Page Demo**](https://jayo-exe.github.io/cc2-embed-wrapper/examples/cc2-embed-wrapper-custom-example.html)
+- fixed URL, loads a specific pre-configured stream, custom page title
