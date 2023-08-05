@@ -1,4 +1,4 @@
-# Steam Embed Wrapper for Crowd Control 2.0 Beta
+# Steam Embed Wrapper for Crowd Control 2
 Crowd Control 2.0 menu, Stream and Chat -- all on one convenient, standalone page.
 
 Provide your viewers with a way to use Crowd Control more comfortably, with your effects menu, stream feed, and chat all on the same page in a familiar arrangement.  Currently only supports Twitch streams.
